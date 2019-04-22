@@ -11,6 +11,6 @@ public class VarEx3 {
 		i1 = b1; // int(4byte) <= byte (1byte)
 		s1 = (short)l1;
 		float f = l1;
-		
+		//tn
 	}
 }

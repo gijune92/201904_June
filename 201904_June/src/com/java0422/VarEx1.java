@@ -13,7 +13,7 @@ public class VarEx1 {
 		System.out.println("s1 = " + s1);
 		System.out.println("i1 = " + i1);
 		System.out.println("l1 = " + l1); 
-		 
+		//sa
 	}
 
 }

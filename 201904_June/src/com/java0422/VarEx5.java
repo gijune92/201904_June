@@ -13,7 +13,7 @@ public class VarEx5 {
 		System.out.println("서울\t대구\t부산");
 		System.out.println("안녕하세요\n이부분은 다음줄에");
 		System.out.println("\uD64D\uAE38\uB3D9");
-		//sad
+		//sa
 	}
 
 }

@@ -8,7 +8,7 @@ public class VarEx2 {
 		double d = 10.5;
 		System.out.println("f = "+ f);
 		System.out.println("d = "+ d);
-		
+		//as
 	}
 
 }
