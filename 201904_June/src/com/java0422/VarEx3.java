@@ -2,7 +2,7 @@ package com.java0422;
 
 public class VarEx3 {
 	
-	public static void main(String[] args)
+	public void main(String[] args)
 	{
 		byte b1 = 10;
 		short s1 = 20;

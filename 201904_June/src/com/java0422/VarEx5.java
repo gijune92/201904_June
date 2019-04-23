@@ -2,7 +2,7 @@ package com.java0422;
 
 public class VarEx5 {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		char single ='\'';
 		String quote ="Hello \"홍길동!\"";
 		String root = "c:\\";
