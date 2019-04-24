@@ -39,11 +39,12 @@ public class Main5 {
 		
 		
 		num1 = sc.nextInt();
-		num2 = sc.nextInt();
+		num2 = sc.nextInt();1
 		num3 = sc.nextInt();
 		System.out.println(sq.Question5(num1, num2, num3));
 		*/
 		
+		/*
 		//Q5.
 		for(int i = 1; i <= 10; i++) {
 			int score = 0;
@@ -51,7 +52,11 @@ public class Main5 {
 			score = sc.nextInt();
 			sq.Question2_1(i, score);
 		}
+		*/
 		
+		sq.Question2_2();
+		
+		sc.close();
 	}
 
 }

@@ -1,6 +1,9 @@
 package com.java0424;
 
+import java.util.Scanner;
+
 public class StudyQuestion {
+	public int Question2_2_Count = 1;
 	
 	public void Question1(int i_num) {
 		if(i_num > 0)
@@ -34,6 +37,35 @@ public class StudyQuestion {
 			System.out.println(i_num+"번학생의 시험 결과는 D 입니다.");
 		else
 			System.out.println(i_num+"번학생의 시험 결과는 F 입니다.");
+	}
+	public void Question2_2() {
+		Scanner sc = new Scanner(System.in);
+		int score =0;
+		
+		if(Question2_2_Count <= 10) {
+			System.out.print(Question2_2_Count+"번학생의 시험 점수를 입력하세요 : ");
+			score = sc.nextInt();
+			
+			if(score >=90) {
+				System.out.println(Question2_2_Count+"번학생의 시험 결과는 A 입니다.");
+			}
+			else if(score >=80) {
+				System.out.println(Question2_2_Count+"번학생의 시험 결과는 B 입니다.");
+			}
+			else if(score >=70) {
+				System.out.println(Question2_2_Count+"번학생의 시험 결과는 C 입니다.");
+			}
+			else if(score >=60) {
+				System.out.println(Question2_2_Count+"번학생의 시험 결과는 D 입니다.");
+			}
+			else {
+				System.out.println(Question2_2_Count+"번학생의 시험 결과는 F 입니다.");
+			}
+	
+			this.Question2_2_Count++;
+			Question2_2();
+		}
+		
 	}
 	public void Question3(int num1, int num2, int num3)
 	{
