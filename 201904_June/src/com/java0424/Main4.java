@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main4 {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		IfEx ex = new IfEx();
 		
 		Scanner sc = new Scanner(System.in);
