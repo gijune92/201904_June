@@ -2,7 +2,7 @@ package com.java0423;
 
 public class Var {
 	
-	public Var() {
+	Var() {
 		//var();
 	} //  기본 생성자 ( 생략 가능 ) 이 안에서 메서드 호출 코드를 넣어두면, new Var(); 이런식으로 호출을 한다면, 생성시 var()함수가 바로 실행이된다. 
 	// return type이 없으면 생성자 라고 생각해도 괜찮

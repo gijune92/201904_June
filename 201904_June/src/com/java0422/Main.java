@@ -1,5 +1,5 @@
 package com.java0422;
-import com.java0423.*;
+import com.java0423.Var;;
 
 public class Main 
 {
@@ -28,7 +28,7 @@ public class Main
 		String res = str + var;
 		System.out.println(res); //		
 		
-		Var v = new Var();
-		int s = v.state1;
+		//Var v = new Var();
+		//int s = v.state1;
 	}
 }
