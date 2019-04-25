@@ -31,7 +31,7 @@ public class StudyQuestion {
 		for(int i = 1; i<=3; i++) {
 			System.out.println(i+"단 \t\t" + (i+3) +"단\t\t" + (i+6) + "단");
 			for(int j = 1; j <= 9; j++) {
-				for(int k = 0; k <= 7; k+=3) {
+				for(int k = 0; k <= 6; k+=3) {
 					System.out.print((i+k) + " * " + (j) +" = " + ((i+k)*(j)) + " \t" );
 				}
 				System.out.println("");
@@ -39,83 +39,39 @@ public class StudyQuestion {
 		}
 	} //12
 	
-	public void level4() {
-		int count = 0;
-		
-		for(int i = 0; i < 5; i++) {
-			/*
-			if(count > 4) {
-				count = count -2;
-			}
-			
-			*/
-			for(int j = 0; j < 9; j++) {
-				if(i==j || i % 8 ==0 || j % 8 ==0 || j == 4 ) {
+	// X ㅁ + -> 합친 모양 찍기
+	public void level4(int size) {
+		for(int i = 0; i < size; i++) {
+			/* 
+			 * i == j -> \
+			 * i % 4 ==0 -> --------
+			 * j % 4 == 0 |
+			 * i + j == 8 /
+			 */
+			for(int j = 0; j < size; j++) {
+				if(i == j || i % (size / 2) == 0 || j % (size / 2) ==0 || i + j == (size-1)) {
 					System.out.print(" ■ ");
 				}
 				else {
 					System.out.print(" □ ");	
 				}
 			}
-			/*
-			for(int j = 0; j < count; j++) {
-				if(i==j || i % 4 ==0 || j % 4 ==0) {
-					System.out.print(" ■ ");
-				}
-				else {
-					System.out.print(" □ ");	
-				}
-			}
-			count++;*/
-			
 			System.out.println("");
 		}
-		
 	}
-	//System.out.print(" □ ");
-	
-	
-	
-	/*
-	 if(j_count >= i &&)
-	{
-		System.out.print("X");
-	}
-	  
-	  				if(i % 5 == 0) {
-					System.out.print("O");
+	public void level5() {
+		for(int i = 0; i <= 8; i++) {
+			for(int j = 0; j <= 8; j++) {
+				if(i % 4 == 0 || j% 4 ==0 || i+j == 4 || (i+4)==j) {
+					System.out.print(" ■ ");
 				}
-				if(j ==10) {
-					System.out.print("O");
-				}
-				else
-				{
-					System.out.print(" ");
+				else {
+					System.out.print(" □ ");	
 				}
 			}
 			System.out.println("");
-			사선
-	 */
-	
-	
-	
-	/*
-	 * 하드코딩
-	if(i==j || i % 6 ==0 || j % 6 ==0) {
-		System.out.print(" □ ");
+		}
 	}
-	else {
-		System.out.print(" ■ ");	
-	}
-	
-	if()
-	{
-		System.out.print(" □ ");
-	}
-	else {
-		System.out.print(" ■ ");	
-	}
-	*/
 	
 	
 

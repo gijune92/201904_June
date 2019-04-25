@@ -1,5 +1,7 @@
 package com.java0425;
 
+import java.util.Scanner;
+
 public class Main2 {
 
 	public static void main(String[] args) {
@@ -31,11 +33,20 @@ public class Main2 {
 		StudyQuestion sq = new StudyQuestion();
 		//sq.level1();
 		//sq.level2();
+		sq.level3();
+		
+		/*
+		Scanner sc = new Scanner(System.in);
+		System.out.print("크기를 입력하세요.(최소크기는 7이상 입니다.) : ");
+		int size = sc.nextInt();
+		
 		System.out.println("-----------------------------------");
-		sq.level4();
-		//f.for7();
+		sq.level4(size);		
 		System.out.println("-----------------------------------");
-		//sq.level3();
+		sc.close();
+		*/
+		
+		sq.level5();
 		
 	}
 }
