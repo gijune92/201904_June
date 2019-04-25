@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main5 {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 
 		StudyQuestion sq = new StudyQuestion();
 		Scanner sc = new Scanner(System.in);
@@ -39,13 +39,13 @@ public class Main5 {
 		
 		
 		num1 = sc.nextInt();
-		num2 = sc.nextInt();1
+		num2 = sc.nextInt();
 		num3 = sc.nextInt();
 		System.out.println(sq.Question5(num1, num2, num3));
 		*/
 		
 		/*
-		//Q5.
+		//Q2-1.
 		for(int i = 1; i <= 10; i++) {
 			int score = 0;
 			System.out.print(i+"번학생의 시험 점수를 입력하세요 : ");
@@ -54,6 +54,7 @@ public class Main5 {
 		}
 		*/
 		
+		//Q2-1 수정
 		sq.Question2_2();
 		
 		sc.close();

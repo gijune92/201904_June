@@ -65,8 +65,9 @@ public class StudyQuestion {
 			this.Question2_2_Count++;
 			Question2_2();
 		}
-		
+		sc.close();
 	}
+	
 	public void Question3(int num1, int num2, int num3)
 	{
 		// 3, 2, 1
