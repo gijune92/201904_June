@@ -26,7 +26,6 @@ public class StudyQuestion {
 		}
 	} //12
 	
-	
 	public void level3() {
 		for(int i = 1; i<=3; i++) {
 			System.out.println(i+"단 \t\t" + (i+3) +"단\t\t" + (i+6) + "단");
@@ -59,6 +58,7 @@ public class StudyQuestion {
 			System.out.println("");
 		}
 	}
+	/*
 	public void level5() {
 		for(int i = 0; i <= 8; i++) {
 			for(int j = 0; j <= 8; j++) {
@@ -72,7 +72,6 @@ public class StudyQuestion {
 			System.out.println("");
 		}
 	}
+	*/
 	
-	
-
 }

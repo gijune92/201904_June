@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main2 {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		/*
 		 * 반복문 : for & while
 		 * 
@@ -44,9 +44,9 @@ public class Main2 {
 		sq.level4(size);		
 		System.out.println("-----------------------------------");
 		sc.close();
+		
+		
+		//sq.level5();
 		*/
-		
-		sq.level5();
-		
 	}
 }
