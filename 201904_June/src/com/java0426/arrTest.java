@@ -140,7 +140,6 @@ public class arrTest {
 		System.out.println(var);
 		
 		day_count = 1;
-		//if(1 < var || var <= 30 ) {
 		for (int i = 0; i < day_Array[0].length; i++){
 			for(int j = 0; j < day_Array.length; j++) {
 				if(day_count == var){
@@ -157,10 +156,7 @@ public class arrTest {
 			}
 		}
 		System.out.println(day_count);
-		//}
 		
 		sc.close();
-		
-		
 	}
 }
