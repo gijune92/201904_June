@@ -101,7 +101,7 @@ public class StudyQuestion {
 			
 			// 종료 부분!
 			if((aX == 5 && aY == 5) && Count== 8 ) {
-				System.out.println("끄읕~~~~~~~~~~~~~~~~~~~~~~~ 이동 횟수 : "+ Count);
+				System.out.println("최단 거리로 이동 하였습니다. 이동 횟수 : "+ Count);
 				break;
 				
 			}else if((aX ==5 && aY ==5) && Count > 8) {
@@ -109,8 +109,6 @@ public class StudyQuestion {
 				Count = 0;
 				Loop_Game();
 			}
-				
-
 			
 		}
 	}

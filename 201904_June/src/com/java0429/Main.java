@@ -25,15 +25,15 @@ public class Main {
 		//System.out.println(a.t4(1, 1, 1,2));
 		//a.t5();
 		
+		// 내문제..
 		//sq.Routine(1, 1, 1, 1);
 		//sq.Loop_Game();
 		
-		//g.Routine(1, 1, 1, 1);
 
 		
-		
+		//지렁이게임
 		//g.game_Print(1, 1, 1, 1);
-		g.Loop();
+		//g.Loop();
 		
 		
 		
