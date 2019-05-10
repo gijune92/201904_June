@@ -27,7 +27,7 @@ public class Main {
 		
 		// 내문제..
 		//sq.Routine(1, 1, 1, 1);
-		//sq.Loop_Game();
+		sq.Loop_Game();
 		
 
 		
